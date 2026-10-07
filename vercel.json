@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "routes": [
+    { "src": "/arcade/?",
+      "has": [{ "type": "host", "value": "coinqqslotnih.com" }],
+      "dest": "/arcade/index.html" },
+
+    { "src": "/amp[0-9]*/(.*)",
+      "has": [{ "type": "host", "value": "coinqqslotnih.com" }],
+      "status": 404 }
+  ]
+}
